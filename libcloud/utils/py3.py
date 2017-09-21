@@ -92,7 +92,7 @@ if PY3:
     from urllib.parse import urlencode as urlencode
     from os.path import relpath
 
-    from imp import reload
+    from importlib import reload
 
     from builtins import bytes
     from builtins import next
